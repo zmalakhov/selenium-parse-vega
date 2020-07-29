@@ -254,6 +254,7 @@ products.push(require('./src/dataKokosShugar/LinksKokosShugar'))
 products.push(require('./src/dataMatcha/LinksMatcha'))
 products.push(require('./src/dataSemenaChia/LinksSemenaChia'))
 products.push(require('./src/dataSpirulina/LinksSpirulina'))
+products.push(require('./src/dataSpirulinaTab/LinksSpirulinaTab.json'))
 products.push(require('./src/dataVitgras/LinksVitgras'))
 
 
