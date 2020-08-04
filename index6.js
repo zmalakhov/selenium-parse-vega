@@ -166,7 +166,10 @@ async function getDataFromUrl(nextUrl) {
         const weightInt = Number.parseInt(weight)
         priceKg = (1000/weightInt)*priceNewInt
         priceKg = priceKg.toFixed(2)
+        if (weight === '') priceKg = ''
     } catch (e) {}
+
+    // console.log("weight" + weight);
 
     // старая цена
     priceOld = priceOld === '0' ? priceNew : priceOld
@@ -178,6 +181,7 @@ async function getDataFromUrl(nextUrl) {
         const priceNewInt = Number.parseInt(priceNew)
         skidka = (priceOldInt-priceNewInt)/(priceOldInt/100)
         skidka = skidka.toFixed(2)
+        if (priceNew === '0') skidka = 0
     } catch (e) {}
     skidka = `${skidka}%`
 
@@ -188,8 +192,11 @@ async function getDataFromUrl(nextUrl) {
         const ordersInt = Number.parseInt(orders)
         orders1comment = (ordersInt/commentInt)
         orders1comment = orders1comment.toFixed(2)
-
+        if (comment === '0') orders1comment = ''
     } catch (e) {}
+
+    //console.log("comment: " + comment);
+
 
     // количество слайдов
     cntSlides=slides
@@ -288,6 +295,12 @@ let products = [];
 // products[0] = jsonDataSemenaChia;
 // let jsonDataSpirulina = require('./src/dataSpirulina/LinksSpirulina');
 // products[1] = jsonDataSpirulina;
+
+
+
+
+// тестовый продукт
+// products.push(require('./src/_dataTest/LinksTest.json'))
 
 
 
