@@ -304,18 +304,19 @@ let products = [];
 
 
 
-products.push(require('./src/dataBarleigras/LinksBarleigras'))
-products.push(require('./src/dataGodji/LinksGodji'))
-products.push(require('./src/dataGuarana/LinksGuarana'))
-products.push(require('./src/dataHlorella/LinksHlorella'))
-products.push(require('./src/dataHlorellaTab/LinksHlorellaTab.json'))
-products.push(require('./src/dataKokosShugar/LinksKokosShugar'))
-products.push(require('./src/dataMatcha/LinksMatcha'))
-products.push(require('./src/dataPsilium/LinksPsilium.json'))
-products.push(require('./src/dataSemenaChia/LinksSemenaChia'))
-products.push(require('./src/dataSpirulina/LinksSpirulina'))
-products.push(require('./src/dataSpirulinaTab/LinksSpirulinaTab.json'))
-products.push(require('./src/dataVitgras/LinksVitgras'))
+// products.push(require('./src/dataBarleigras/LinksBarleigras'))
+// products.push(require('./src/dataGodji/LinksGodji'))
+// products.push(require('./src/dataGuarana/LinksGuarana'))
+// products.push(require('./src/dataHlorella/LinksHlorella'))
+// products.push(require('./src/dataHlorellaTab/LinksHlorellaTab.json'))
+// products.push(require('./src/dataKokosShugar/LinksKokosShugar'))
+products.push(require('./src/dataKokosMilk/LinksKokosMilk.json'))
+// products.push(require('./src/dataMatcha/LinksMatcha'))
+// products.push(require('./src/dataPsilium/LinksPsilium.json'))
+// products.push(require('./src/dataSemenaChia/LinksSemenaChia'))
+// products.push(require('./src/dataSpirulina/LinksSpirulina'))
+// products.push(require('./src/dataSpirulinaTab/LinksSpirulinaTab.json'))
+// products.push(require('./src/dataVitgras/LinksVitgras'))
 
 
 
