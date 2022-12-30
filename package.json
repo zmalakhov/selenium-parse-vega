@@ -9,7 +9,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "csv-writer": "^1.6.0",
-    "mocha": "8.0.1",
+    "mocha": "8.4.0",
     "needle": "^2.5.0",
     "selenium-webdriver": "^4.0.0-alpha.7",
     "xlsx-populate": "^1.21.0"
